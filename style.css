@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(#aa4b6b,#6b6b83,#3b8d99) ;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+} 
+
+.login{
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin-top: .7rem;
+    width: 90%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
+    width: 90%;
+    height: 2rem;
+    margin-top: .7rem;
+    border: none;
+    color: white;
+    background-color: peru;
+    border-radius: 5px;
+}
+
+.alert-bg{
+    background-color: #aa4b6b;
+    padding: .5rem;
+    margin-top: 1rem;
+    align-self: center;
+    display: none;
+}
+
+.secilenIslem{
+    width: 75%;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+}
+
+.main{
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.guncelBakiye{
+    margin-bottom: 150px;
+    padding: 20px;
+    font-size: larger;
+    border-radius:20px ;
+    border: 1px solid rgba(255, 0, 0, 0.137);
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animation {
+
+    33% {
+        border-color: rgba(159, 184, 214, 255);
+    }
+
+    66% {
+        border-color: rgba(146, 158, 174, 255);
+    }
+
+    100% {
+        border-color: rgba(115, 118, 127, 255);
+    }
+}
+
+.islembtn{
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.forgetPassword{
+    border-radius: 5px;
+    background: none;
+}
+
+.girisyap{
+    border-radius: 5px;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.changePassword{
+    display: none;
+    text-align: center;
+    color: lightpink;
+}
+
+.guvenlikSorusu{
+    width: 100%;
+    padding: 10px;
+}
+
+.sifreBtn{
+    border-radius: 5px;
+    width: 50%;
+}
+
+.changePassword2{
+    display: none;
+}
+
+.alert-bg2{
+    background-color: #aa4b6b;
+    padding: .5rem;
+    margin-top: 1rem;
+    align-self: center;
+    display: none;
+}
+
+.home{
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 150px;
+}
+
+.home2{
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 150px;
+}
+
+.krediVade{
+    display: none;
+}
+
+.krediAy{
+    width: 90%;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+}
+
+.yetersizBakiye{
+    display: none;
+}
+
+.anlasildi{
+    display:none;
+}
+
+.createPassword{
+    border-radius: 5px;
+    background: none;
+}
